@@ -259,7 +259,7 @@
 <header>
     <!-- header content begin -->
     <div class="uk-section uk-padding-remove-vertical" style="z-index: 10;">
-        <nav class="uk-navbar-container uk-navbar-transparent" style="background-color:#E2DFD2;">
+        <nav class="uk-navbar-container uk-navbar-transparent"  style="background-color:#000000;">
 
             <div class="uk-container" data-uk-navbar>
                 <div class="uk-navbar-left">
@@ -268,7 +268,7 @@
                         <div id="google_translate_element"></div>
                         <a class="uk-logo" href="{{url('/')}}">
                             <img src="{{asset('home/images/'.$web->logo)}}"
-                                 data-src="{{asset('home/images/'.$web->logo)}}" alt="" style="width:100px;" data-uk-img>
+                                 data-src="{{asset('home/images/'.$web->logo)}}" alt="" style="width:150px;" data-uk-img>
                         </a>
                         <!-- logo end -->
                         <!-- navigation begin -->
@@ -376,7 +376,7 @@
     </div>
 </div>
 
-<footer>
+<footer  style="background-color:#000000;">
 
     <div class="uk-section" style="padding-bottom: 0px; padding-top: 0px;">
         <div class="uk-container ">
@@ -395,7 +395,7 @@
         </div>
     </div>
     <!-- footer content begin -->
-    <div class="uk-section">
+    <div class="uk-section" >
         <div class="uk-container uk-margin-top">
             <div class="uk-grid">
                 <div class="uk-width-5-6@m">

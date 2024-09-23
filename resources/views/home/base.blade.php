@@ -49,16 +49,16 @@
         }
 
         .myBgBlue {
-            background-color: #4886d9 !important;
+            background-color: #E2DFD2 !important;
             color: #fff !important;
         }
 
         .myYello {
-            color: #0437F2 !important;
+            color: #E2DFD2 !important;
         }
 
         .myBgYello {
-            background-color: #0437F2 !important;
+            background-color: #E2DFD2 !important;
             color: #fff !important;
         }
 
@@ -248,7 +248,7 @@
     </style>
 </head>
 
-<body style="background-color:#00008B;">
+<body style="background-color:#E2DFD2;">
 
 <!--<div class="in-loader" style="background-color: #181818;">-->
 <!--    <div></div>-->
@@ -259,7 +259,7 @@
 <header>
     <!-- header content begin -->
     <div class="uk-section uk-padding-remove-vertical" style="z-index: 10;">
-        <nav class="uk-navbar-container uk-navbar-transparent" style="background-color:#00008B;">
+        <nav class="uk-navbar-container uk-navbar-transparent" style="background-color:#E2DFD2;">
 
             <div class="uk-container" data-uk-navbar>
                 <div class="uk-navbar-left">
@@ -321,7 +321,7 @@
 
 
 <div class="uk-section uk-section-primary  in-equity-14 uk-background-contain uk-background-top-center"
-     data-src="{{asset('home/img/in-equity-14-bg.svg')}}" data-uk-img="" style="background-color:#0c63e4;">
+     data-src="{{asset('home/img/in-equity-14-bg.svg')}}" data-uk-img="" style="background-color:#9A2A2A;">
     <div class="uk-container uk-margin-small-bottom">
         <div class="uk-child-width-1-2@m uk-flex uk-flex-middle uk-grid" data-uk-grid="">
             <div class="uk-first-column">
@@ -350,7 +350,7 @@
         <div class="uk-grid uk-grid-stack" data-uk-grid="">
             <div class="uk-width-1-1 uk-first-column">
                 <div class="uk-card uk-card-default uk-card-body uk-border-rounded"
-                     style="background-color:#0c63e4;">
+                     style="background-color:#9A2A2A;">
                     <h4 class="uk-text-center in-offset-top-10" style="color: #ffffff;">Fast and reliable withdrawal/deposit method</h4>
                     <div class="uk-grid-collapse uk-child-width-1-5@m uk-child-width-1-5
                     uk-text-center in-client-logo-6 uk-grid uk-grid-stack" data-uk-grid="" >
@@ -686,11 +686,11 @@
     .notifier a {
         font-weight: 700;
         display: block;
-        color:#0080FF;
+        color:#954535;
     }
     .notifier a, .notifier a:active {
         transition: all .2s ease;
-        color:#0080FF;
+        color:#954535;
     }
 </style>
 <script data-cfasync="false" src="#"></script><script type="text/javascript">

@@ -102,7 +102,8 @@ class HomeController extends Controller
             'siteName'  => $web->name,
             'web'       => $web,
             'pageName'  => 'Services',
-            'packages'  => Package::where('status',1)->get()
+            'packages'  => Package::where('status',1)->get(),
+            'services'  =>Service::where('status',1)->get()
         ];
 
         return view('home.service',$dataView);
@@ -281,6 +282,19 @@ class HomeController extends Controller
         ];
 
         return view('home.career',$dataView);
+    }
+    public function markets()
+    {
+        $web = GeneralSetting::where('id',1)->first();
+
+        $dataView = [
+            'siteName'  => $web->name,
+            'web'       => $web,
+            'pageName'  => 'Markets',
+            'packages'  => Package::where('status',1)->get()
+        ];
+
+        return view('home.markets',$dataView);
     }
 }
 

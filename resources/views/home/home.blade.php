@@ -232,7 +232,7 @@
 
 
 
-        <div class="uk-section in-equity-16" style="background-color:#000000;">
+        <div class="uk-section in-equity-16" style="background-color:#FFFFFF;">
             <div class="uk-container uk-margin-top uk-margin-large-bottom">
                 <div class="uk-grid uk-flex uk-flex-center in-offset-bottom-20">
                     <div class="uk-width-5-6@m uk-text-center">
@@ -330,7 +330,7 @@
 
 
         <div class="uk-section uk-section-primary uk-preserve-color in-equity-1"
-             style="background-color:#000000;color: #ffffff;">
+             style="background-color:#FFFFFF;color: #9A2A2A;">
             <div class="uk-container">
                 <div class="uk-grid">
                     <div class="uk-width-1-1">
@@ -343,15 +343,15 @@
 
                     @foreach($packages as $package)
                         @inject('option','App\Defaults\Custom')
-                        <div style="color: #ffffff;">
+                        <div style="color: #9A2A2A;">
                             <div class="uk-card uk-card-body uk-card-secondary uk-border-rounded"
                                  style="border-style: solid;border-color: darkgoldenrod;">
-                                <div class="uk-flex uk-flex-middle" style="color: #ffffff;">
+                                <div class="uk-flex uk-flex-middle" style="color: #9A2A2A;">
                                     <span class="in-product-name red"><i class="fas fa-database"></i></span>
-                                    <h4 class="uk-margin-remove" style="color: #ffffff;">{{$package->name}}</h4>
+                                    <h4 class="uk-margin-remove" style="color: #9A2A2A;">{{$package->name}}</h4>
                                 </div>
                                 <p class="myPlan">
-                                <ul class="myUl" style="color: #ffffff;">
+                                <ul class="myUl" style="color: #9A2A2A;">
                                     <li>Minimum: <b>${{number_format($package->minAmount,2)}}</b></li>
                                     <li>Maximum:
                                         <b>
@@ -392,7 +392,7 @@
                 </div>
             </div>
             <div class="uk-section uk-section-secondary"
-                 style="background-color: #00008B;">
+                 style="background-color: #9A2A2A;">
                 <div class="uk-container uk-margin-medium-top uk-margin-medium-bottom" >
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-text-center">
@@ -544,7 +544,7 @@
                 </div>
             </div>
             <div class="uk-section uk-section-primary  uk-background-contain uk-background-center in-equity-15"
-                 data-src="{{asset('home/img/in-equity-15-bg.png')}}" style="background-color: #00008B;">
+                 data-src="{{asset('home/img/in-equity-15-bg.png')}}" style="background-color: #9A2A2A;">
                 <div class="uk-container uk-margin-top uk-margin-medium-bottom">
                     <div class="uk-grid">
                         <div class="uk-width-3-5@m">
@@ -603,7 +603,7 @@
                             <hr>
                             <div class="uk-flex uk-flex-left uk-flex-middle get-started">
                                 <h5 class="uk-margin-remove" style="color: #0c63e4;">Ready to get started?</h5>
-                                <a href="{{route('login')}}" style="background-color:#fff;color:#000000;"
+                                <a href="{{route('login')}}" style="background-color:#fff;color:#FFFFFF;"
                                    class="uk-button uk-button-primary uk-border-rounded uk-margin-left">Login<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                                 <a href="{{route('register')}}" style="background-color:#40d498;"
                                    class="uk-button uk-button-secondary uk-border-rounded uk-margin-left">Create Account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
@@ -667,7 +667,7 @@
                 </div>
             </div>
 
-            <div class="uk-section uk-padding-remove-vertical in-equity-12" style="background-color: #00008B;">
+            <div class="uk-section uk-padding-remove-vertical in-equity-12" style="background-color: #9A2A2A;">
                 <div class="">
                     <div class="uk-width-1-1@m">
                         <div class="uk-card uk-card-secondary uk-card-body  uk-box-shadow-medium uk-background-contain uk-background-top-center" data-src="{{asset('home/img/in-equity-12-bg.png')}}" data-uk-img="">
@@ -1040,7 +1040,7 @@
             {{--                </div>--}}
             {{--            </div>--}}
 
-            <div class="uk-section uk-section-secondary" style="background-color: #00008B;">
+            <div class="uk-section uk-section-secondary" style="background-color: #9A2A2A;">
                 <div class="uk-container uk-margin-medium-top uk-margin-medium-bottom">
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-text-center">
@@ -1128,7 +1128,7 @@
             </div>
 
 
-            <div class="uk-section uk-section-secondary" style="background-color: #000000;">
+            <div class="uk-section uk-section-secondary" style="background-color: #FFFFFF;">
                 <div class="uk-container uk-margin-medium-top uk-margin-medium-bottom">
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-text-center" style="color: #ffffff;">
@@ -1166,7 +1166,7 @@
             </div>
 
 
-            <div class="uk-section uk-section-secondary" style="background-color: #00008B;">
+            <div class="uk-section uk-section-secondary" style="background-color: #9A2A2A;">
                 <div class="uk-container uk-margin-medium-top uk-margin-medium-bottom">
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-text-center">
@@ -1204,7 +1204,7 @@
             </div>
 
             <div class="uk-card uk-card-body uk-card-default uk-border-rounded in-margin-top-60@s"
-                 style="background-color: #000000;">
+                 style="background-color: #FFFFFF;">
                 <img src="{{asset('home/img/sec-logo.png')}}">
             </div>
 

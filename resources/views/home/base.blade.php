@@ -694,14 +694,12 @@
     }
 </style>
 <script data-cfasync="false" src="#"></script><script type="text/javascript">
-    var listCountries = ['Germany', 'South Africa', 'Spain', 'Russia', 'Italy', 'South Africa',
-        'Italy', 'South Africa', 'United States', 'Egypt', 'Kenya', 'Uganda',
-        'South Africa', 'Angola', 'Ghana', 'United Kingdom', 'Senegal',
-        "Togo","Seychelles","United States","England","Germany","Germany","United States","Switzerland",
+    var listCountries = ['Germany', 'Malta', 'Spain', 'Russia', 'Italy', 'Jamaica',
+        'Italy', 'Belgium', 'United States', 'Egypt', 'Kenya', 'New Zealand',
+        'United Kingdom', 'Senegal',
+        "United States","England","Germany","Germany","United States","Switzerland",
         "Austria","Austria","Austria","Australia","Australia","Australia","Russia","Russia",
-        "United States","United Kingdom","Spain","Spain","India","England","Italy",'Kenya', 'Uganda',
-        'South Africa', 'Angola','Tanzania', 'Tanzania',
-        'Tanzania', 'Tanzania',"Kenya","Kenya","Kenya",
+        "United States","United Kingdom","Spain","Spain","India","England","Italy",
     ];
     var listPlans = ['$500','$50','$1,000','$100','$200','$3000','$400', '$360',
         '$700', '$60',"$500","$300","$1,000","$128"];
@@ -724,7 +722,18 @@
     }
 </script>
 <!-- end popup massage -->
-
+<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '621742dc75fec6a47ca7005028599c5cce592ece';
+    window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+</script>
+<noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 
 </body>
 </html>

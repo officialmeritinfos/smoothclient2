@@ -321,7 +321,7 @@
 
 
 <div class="uk-section uk-section-primary  in-equity-14 uk-background-contain uk-background-top-center"
-     data-src="{{asset('home/img/in-equity-14-bg.svg')}}" data-uk-img="" style="background-color:#9A2A2A;">
+     data-src="{{asset('home/img/in-equity-14-bg.svg')}}" data-uk-img="" style="background-color:#000000;">
     <div class="uk-container uk-margin-small-bottom">
         <div class="uk-child-width-1-2@m uk-flex uk-flex-middle uk-grid" data-uk-grid="">
             <div class="uk-first-column">
@@ -350,7 +350,7 @@
         <div class="uk-grid uk-grid-stack" data-uk-grid="">
             <div class="uk-width-1-1 uk-first-column">
                 <div class="uk-card uk-card-default uk-card-body uk-border-rounded"
-                     style="background-color:#9A2A2A;">
+                     style="background-color:#000000;">
                     <h4 class="uk-text-center in-offset-top-10" style="color: #ffffff;">Fast and reliable withdrawal/deposit method</h4>
                     <div class="uk-grid-collapse uk-child-width-1-5@m uk-child-width-1-5
                     uk-text-center in-client-logo-6 uk-grid uk-grid-stack" data-uk-grid="" >
@@ -686,11 +686,11 @@
     .notifier a {
         font-weight: 700;
         display: block;
-        color:#954535;
+        color:#000000;
     }
     .notifier a, .notifier a:active {
         transition: all .2s ease;
-        color:#954535;
+        color:#000000;
     }
 </style>
 <script data-cfasync="false" src="#"></script><script type="text/javascript">

@@ -27,7 +27,8 @@
                                             <a href="{{route('login')}}"
                                                class="uk-button uk-button-primary uk-border-rounded">Login<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                                             <a href="{{route('register')}}"
-                                               class="uk-button uk-button-primary myBgYello uk-border-rounded uk-margin-left">Create Account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+                                               class="uk-button uk-button-primary uk-border-rounded uk-margin-left"
+                                            style="background-color:green;">Create Account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                                         </p>
                                     </div>
                                 </div>
@@ -152,7 +153,7 @@
                                     </p>
                                     <div class="uk-grid-medium uk-child-width-1-1@m uk-child-width-1-1@s uk-margin-medium-top">
                                         <p>
-                                            <a href="{{url('services')}}" class="uk-button uk-button-primary myBgYello uk-border-rounded">Our Services<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+                                            <a href="{{url('services')}}" class="uk-button uk-button-primary uk-border-rounded">Our Services<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                                         </p>
                                     </div>
                                 </div>
@@ -304,7 +305,7 @@
 
 
 
-        <div class="uk-section in-equity-3 in-offset-top-20">
+        <div class="uk-section in-equity-3 in-offset-top-20" style="background-color:#000000;">
             <div class="uk-container uk-margin-large-bottom">
                 <div class="uk-grid uk-flex uk-flex-middle">
                     <div class="uk-width-expand@m">
@@ -373,8 +374,7 @@
                                 </ul>
                                 </p>
                                 <a  href="{{route('register')}}"
-                                    class="uk-button uk-button-text myYello uk-float-right
-                                    uk-position-bottom-right">Get Started
+                                    class="uk-button uk-button-secondary uk-border-rounded uk-margin-small-top" style="background-color:green;">Get Started
                                     <i class="fas fa-arrow-circle-right uk-margin-small-left"></i>
                                 </a>
                             </div>
@@ -603,7 +603,7 @@
                             <hr>
                             <div class="uk-flex uk-flex-left uk-flex-middle get-started">
                                 <h5 class="uk-margin-remove" style="color: #0c63e4;">Ready to get started?</h5>
-                                <a href="{{route('login')}}" style="background-color:#fff;color:#FFFFFF;"
+                                <a href="{{route('login')}}" style="background-color:#0c63e4;color:#FFFFFF;"
                                    class="uk-button uk-button-primary uk-border-rounded uk-margin-left">Login<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                                 <a href="{{route('register')}}" style="background-color:#40d498;"
                                    class="uk-button uk-button-secondary uk-border-rounded uk-margin-left">Create Account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>

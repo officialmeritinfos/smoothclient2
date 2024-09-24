@@ -41,7 +41,7 @@
 
         <!-- START SECTION BANNER -->
 
-        <div class="uk-section">
+        <div class="uk-section" style="background-color:#000000;">
             <div class="uk-container">
                 <div class="uk-grid">
                     <div class="uk-width-1-1 uk-flex uk-flex-center">

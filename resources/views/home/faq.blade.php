@@ -137,7 +137,7 @@
                                             </div>
                                         </a>
                                         <div class="uk-accordion-content uk-card uk-card-default uk-card-body uk-border-rounded" hidden="">
-                                            <p>Yes you can.</p>
+                                            <p>Yes, but only available on the ultimate plan</p>
                                         </div>
                                     </li>
 
@@ -171,7 +171,7 @@
                                             </div>
                                         </a>
                                         <div class="uk-accordion-content uk-card uk-card-default uk-card-body uk-border-rounded" hidden="">
-                                            <p>Yes.</p>
+                                            <p>Yes, but only available on the ultimate plan</p>
                                         </div>
                                     </li>
 

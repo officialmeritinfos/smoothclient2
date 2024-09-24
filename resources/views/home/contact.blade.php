@@ -39,7 +39,7 @@
 
     <!-- START SECTION BANNER -->
     <main>
-        <div class="uk-section">
+        <div class="uk-section" style="background-color:#000000;">
             <div class="uk-container uk-margin-small-top uk-margin-bottom">
                 <div class="uk-grid uk-flex uk-flex-center in-contact-6">
                     <div class="uk-width-3-5@m">
@@ -56,13 +56,15 @@
                                     {{$web->email}}
                                 </p>
                             </div>
-                            <div>
-                                <h5 class="uk-margin-remove-bottom">
-                                    <i class="fas fa-envelope fa-sm uk-margin-small-right"></i>Phone</h5>
-                                <p class="uk-margin-small-top uk-margin-remove-bottom">
-                                    {{$web->phone}}
-                                </p>
-                            </div>
+                            @if(!empty($web->phone))
+                                <div>
+                                    <h5 class="uk-margin-remove-bottom">
+                                        <i class="fas fa-envelope fa-sm uk-margin-small-right"></i>Phone</h5>
+                                    <p class="uk-margin-small-top uk-margin-remove-bottom">
+                                        {{$web->phone}}
+                                    </p>
+                                </div>
+                            @endif
 
                         </div>
                         <hr class="uk-margin-medium">

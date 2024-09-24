@@ -8,7 +8,7 @@
 
 
 
-        <div class="uk-section">
+        <div class="uk-section" style="background-color:#000000;">
             <div class="uk-container">
                 <div class="uk-grid uk-flex uk-flex-center">
                     <div class="uk-width-4-5@m">
@@ -47,14 +47,14 @@
         </div>
 
 
-        <div class="uk-section">
+        <div class="uk-section" style="background-color:#000000;">
             <div class="uk-container">
                 <div class="uk-grid uk-flex uk-flex-center">
                     <div class="uk-width-4-5@m">
 
                         <div class="uk-inline-clip uk-transition-toggle uk-border-rounded uk-margin-top">
                             <img class="uk-transition-scale-up uk-transition-opaque"
-                                 src="{{asset('home/images/bitautominers.jpeg')}}" alt="">
+                                 src="{{asset('home/images/cert.jpeg')}}" alt="">
                         </div>
                     </div>
                 </div>

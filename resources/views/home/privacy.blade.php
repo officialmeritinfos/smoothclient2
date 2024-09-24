@@ -3,7 +3,8 @@
 @section('content')
 
 
-    <div class="uk-section uk-section-secondary uk-preserve-color uk-background-contain uk-background-center in-equity-15" data-src="{{asset('home/img/in-equity-decor-1.svg')}}" data-uk-img>
+    <div class="uk-section uk-section-secondary uk-preserve-color uk-background-contain uk-background-center in-equity-15"
+         data-src="{{asset('home/img/in-equity-decor-1.svg')}}" data-uk-img >
         <div class="uk-container">
             <div class="uk-width-3-3@m">
                 <div data-uk-grid="" class="uk-grid">
@@ -40,13 +41,12 @@
     </div>
 
     <!-- Start Terms of Service Area -->
-    <section class="terms-of-service-area bg-f9f9f9 ptb-100">
+    <section class="terms-of-service-area bg-f9f9f9 ptb-100" style="background-color:#000000;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="terms-of-service-content">
-                        <img src="{{asset('home/img/blog/blog-img1.jpg')}}" alt="image">
-                        <p><i>This Terms of Service was last updated on January 1, 2022.</i></p>
+                        <p><i>This Terms of Service was last updated on January 1, 2024.</i></p>
                         <h3>1. Our website</h3>
                         <p>Our website address is: <strong>{{env('APP_URL')}}</strong></p>
                         <blockquote class="blockquote text-white">

@@ -296,5 +296,18 @@ class HomeController extends Controller
 
         return view('home.markets',$dataView);
     }
+    public function legal()
+    {
+        $web = GeneralSetting::where('id',1)->first();
+
+        $dataView = [
+            'siteName'  => $web->name,
+            'web'       => $web,
+            'pageName'  => 'Legal',
+            'packages'  => Package::where('status',1)->get()
+        ];
+
+        return view('home.legal',$dataView);
+    }
 }
 

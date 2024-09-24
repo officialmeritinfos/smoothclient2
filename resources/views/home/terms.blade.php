@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <div class="uk-section uk-section-secondary uk-preserve-color uk-background-contain uk-background-center in-equity-15" data-src="{{asset('home/img/in-equity-decor-1.svg')}}" data-uk-img>
+    <div class="uk-section uk-section-secondary uk-preserve-color uk-background-contain uk-background-center in-equity-15"  data-src="{{asset('home/img/in-equity-decor-1.svg')}}" data-uk-img>
         <div class="uk-container">
             <div class="uk-width-3-3@m">
                 <div data-uk-grid="" class="uk-grid">
@@ -40,7 +40,7 @@
     </div>
     <!-- CONTENT-1
 			============================================= -->
-    <section id="content-1" class="content-1 wide-60 inner-page-hero content-section division">
+    <section id="content-1" class="content-1 wide-60 inner-page-hero content-section division" style="background-color:#000000;">
         <div class="container">
             <div class="row d-flex align-items-center">
 
@@ -49,7 +49,7 @@
                 <div class="col-md-12 col-lg-12 order-last order-md-2">
                     <div class="txt-block left-column wow fadeInRight">
 
-                        <p><i>This Terms of Service was last updated on January 1, 2022.</i></p>
+                        <p><i>This Terms of Service was last updated on January 1, 2024.</i></p>
                         <h3 class="text-center" style="font-weight: bolder;">Terms and Conditions </h3>
                         <p>Carefully read the rules for using the {{$siteName}} service. By accessing or using the site, you agree
                             to comply with the conditions described in this document. If you do not agree to these terms,

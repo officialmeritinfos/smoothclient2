@@ -273,6 +273,7 @@
                         <!-- logo end -->
                         <!-- navigation begin -->
                         <ul class="uk-navbar-nav uk-visible@m">
+                            <li><a href="{{url('/')}}">Home</a></li>
                             <li><a href="#">Company<i class="fas fa-chevron-down"></i></a>
                                 <div class="uk-navbar-dropdown">
                                     <ul class="uk-nav uk-navbar-dropdown-nav">

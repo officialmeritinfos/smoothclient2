@@ -1045,7 +1045,8 @@
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-text-center">
                             <h1>Invest on <span class="in-highlight">Stock</span> Market</h1>
-                            <p class="uk-text-lead uk-margin-medium-bottom">Invest on our extensive range of CFDs on FX, Commodities, Cryptocurrencies, Shares, ETFs and more. Low costs, fast execution and 24/7 support.</p>
+                            <p class="uk-text-lead uk-margin-medium-bottom">Invest in our extensive range of CFDs on Shares, ETFs and more.
+                                Low costs, fast execution and 24/7 support.</p>
                             <div class="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-box-shadow-large widget-card">
                                 <!-- TradingView Widget BEGIN -->
                                 <!-- TradingView Widget BEGIN -->
@@ -1133,7 +1134,7 @@
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-text-center" style="color: #ffffff;">
                             <h1 style="color: #ffffff;">Invest on <span class="in-highlight">Forex</span> Market</h1>
-                            <p class="uk-text-lead uk-margin-medium-bottom" style="color: #ffffff;">Invest on our extensive range of CFDs on FX, Commodities, Cryptocurrencies, Shares, ETFs and more. Low costs, fast execution and 24/7 support.</p>
+                            <p class="uk-text-lead uk-margin-medium-bottom" style="color: #ffffff;">Invest in our extensive range of options on FX, and more. Low costs, fast execution and 24/7 support.</p>
 
                             <div class="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-box-shadow-large widget-card">
                                 <!-- TradingView Widget BEGIN -->
@@ -1171,7 +1172,9 @@
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-text-center">
                             <h1>Invest on <span class="in-highlight">Cryptocurrency</span> Market</h1>
-                            <p class="uk-text-lead uk-margin-medium-bottom">Invest on our extensive range of CFDs on FX, Commodities, Cryptocurrencies, Shares, ETFs and more. Low costs, fast execution and 24/7 support.</p>
+                            <p class="uk-text-lead uk-margin-medium-bottom">
+                                Invest in the cryptocurrency market with a wide range of supported assets, high market trading volume, and propensity to be bullish.
+                                Low costs, fast execution and 24/7 support.</p>
 
                             <div class="uk-card uk-card-secondary uk-card-body uk-border-rounded uk-box-shadow-large widget-card">
                                 <!-- TradingView Widget BEGIN -->

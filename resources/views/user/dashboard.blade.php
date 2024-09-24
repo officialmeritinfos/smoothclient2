@@ -19,6 +19,19 @@
     <div class="today-card-area pt-24">
         <div class="container-fluid">
             @include('templates.notification')
+            <div class="row justify-content-between">
+                <div class="col-lg-3 col-sm-6 text-start col-6">
+                    <div class="single-today-card d-flex align-items-center">
+                        <a href="{{route('new_investment')}}" class="default-btn">Deposit</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 text-end col-6">
+                    <div class="single-today-card d-flex align-items-center">
+                        <a href="{{route('new_withdrawal')}}" class="btn btn-primary rounded-pill">Withdraw</a>
+                    </div>
+                </div>
+
+            </div>
             <div class="row justify-content-center">
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-today-card d-flex align-items-center">

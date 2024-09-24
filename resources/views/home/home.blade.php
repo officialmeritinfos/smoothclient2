@@ -310,7 +310,7 @@
                 <div class="uk-grid uk-flex uk-flex-middle">
                     <div class="uk-width-expand@m">
                         <h1 class="uk-margin-small-bottom">Investment that's <span class="in-highlight">suitable</span> for you</h1>
-                        <h3 class="uk-margin-top uk-text-warning">Your financial freedom is our success</h3>
+                        <h3 class="uk-margin-top" style="color: #ffffff;">Your financial freedom is our success</h3>
                         <hr class="uk-margin-medium-top uk-margin-medium-bottom">
                         <ul class="uk-list in-list-check">
                             <li>We are innovative</li>
@@ -1128,7 +1128,7 @@
             </div>
 
 
-            <div class="uk-section uk-section-secondary" style="background-color: #FFFFFF;">
+            <div class="uk-section uk-section-secondary" style="background-color: #373840;">
                 <div class="uk-container uk-margin-medium-top uk-margin-medium-bottom">
                     <div class="uk-grid uk-flex uk-flex-center">
                         <div class="uk-text-center" style="color: #ffffff;">

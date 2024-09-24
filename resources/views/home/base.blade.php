@@ -426,7 +426,7 @@
                                 <li><a href="{{url('services')}}">Cannabis Investments</a></li>
                                 <li><a href="{{url('services')}}">Oil and Gas</a></li>
                                 <li><a href="{{url('services')}}">Financial Planning</a></li>
-                                <li><a href="{{url('services')}}">Loans and Grants</a></li>
+{{--                                <li><a href="{{url('services')}}">Loans and Grants</a></li>--}}
                                 <li><a href="{{url('services')}}">Stock Investment</a></li>
                             </ul>
                         </div>

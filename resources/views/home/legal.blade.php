@@ -54,7 +54,7 @@
 
                         <div class="uk-inline-clip uk-transition-toggle uk-border-rounded uk-margin-top">
                             <img class="uk-transition-scale-up uk-transition-opaque"
-                                 src="{{asset('home/images/cert.jpeg')}}" alt="">
+                                 src="{{asset('home/images/certificate.jpeg')}}" alt="">
                         </div>
                     </div>
                 </div>

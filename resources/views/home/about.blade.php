@@ -121,6 +121,94 @@
                     </div>
                 </div>
             </div>
+        </div>y
+
+        <div class="uk-section uk-padding-remove-vertical uk-margin-medium-bottom">
+            <div class="uk-container">
+                <div class="uk-grid">
+                    <div class="uk-width-1-1">
+                        <div class="uk-card uk-card-default uk-border-rounded uk-background-center uk-background-contain uk-background-image@m" style="background-image: url(_img/blockit/in-team-background-1.html')}}); background-position-y: calc(50% + -22.08px);" data-uk-parallax="bgy: -100">
+                            <div class="uk-card-body">
+                                <div class="uk-grid uk-flex uk-flex-center">
+                                    <div class="uk-width-3-4@m uk-text-center">
+                                        <h1 class="uk-margin-remove">MEET SOME OF OUR EXPERTS/BOARD <span class="in-highlight">MEMBERS</span></h1>
+                                    </div>
+                                </div>
+                                <div class="uk-child-width-1-2@m uk-text-center uk-margin-small-bottom uk-grid" data-uk-grid="">
+
+                                        <div class="uk-first-column">
+                                            <img src="{{asset('home/images/team/cofounder.jpeg')}}" alt=""
+                                                 style="width:100%">
+                                            <h4 class="uk-margin-small-top uk-margin-remove-bottom">
+                                                BENSON MARK
+                                            </h4>
+                                            <div class="myP">
+                                                Co-founder
+                                            </div>
+                                        </div>
+
+                                    <div class="uk-first-column">
+                                        <img src="{{asset('home/images/team/ceo.jpeg')}}" alt=""
+                                             style="width:100%">
+                                        <h4 class="uk-margin-small-top uk-margin-remove-bottom">
+                                            CJ THOMPSON
+                                        </h4>
+                                        <div class="myP">
+                                            CEO/Co-founder
+                                        </div>
+                                    </div>
+
+                                    <div class="uk-first-column">
+                                        <img src="{{asset('home/images/team/broker.jpeg')}}" alt=""
+                                             style="width:100%">
+                                        <h4 class="uk-margin-small-top uk-margin-remove-bottom">
+                                            ROY MARGERET
+                                        </h4>
+                                        <div class="myP">
+                                            Financial broker
+                                        </div>
+                                    </div>
+
+                                    <div class="uk-first-column">
+                                        <img src="{{asset('home/images/team/cfo.jpeg')}}" alt=""
+                                             style="width:100%">
+                                        <h4 class="uk-margin-small-top uk-margin-remove-bottom">
+                                            GEORGE ED
+                                        </h4>
+                                        <div class="myP">
+                                            CFO/Broker manager
+                                        </div>
+                                    </div>
+
+                                    <div class="uk-first-column">
+                                        <img src="{{asset('home/images/team/compliance.jpeg')}}" alt=""
+                                             style="width:100%">
+                                        <h4 class="uk-margin-small-top uk-margin-remove-bottom">
+                                            BRAYTON DARIUS
+                                        </h4>
+                                        <div class="myP">
+                                            Compliance officer
+                                        </div>
+                                    </div>
+
+                                    <div class="uk-first-column">
+                                        <img src="{{asset('home/images/team/managing.jpeg')}}" alt=""
+                                             style="width:100%">
+                                        <h4 class="uk-margin-small-top uk-margin-remove-bottom">
+                                            EDWARD JEFFREY
+                                        </h4>
+                                        <div class="myP">
+                                            Managing partner/Co-founder
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="uk-section in-gallery-1">
